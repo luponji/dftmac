@@ -48,6 +48,6 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='DTF Optimizer Pro.app',
-    icon='resources/logo.icns',
+    icon='resources/icon.icns',
     bundle_identifier='com.luponji.dtfoptimizerpro',
 )
