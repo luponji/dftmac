@@ -23,7 +23,7 @@ jobs:
 
       - name: Build macOS App
         run: |
-          pyinstaller DTFOptimizerPro.spec
+          pyinstaller --clean DTFOptimizerPro.spec
 
       - name: Upload App Bundle
         uses: actions/upload-artifact@v4
