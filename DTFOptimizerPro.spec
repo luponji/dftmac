@@ -9,9 +9,8 @@ a = Analysis(
     pathex=['.'],
     binaries=[],
     datas=[
-        ('resources', 'resources'),
-        ('assets', 'assets'),
-        ('presets', 'presets'),
+    ('resources', 'resources'),
+    ('presets', 'presets'),
     ],
     hiddenimports=hiddenimports,
     hookspath=[],
