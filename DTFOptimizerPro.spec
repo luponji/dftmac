@@ -10,7 +10,7 @@ a = Analysis(
     binaries=[],
     datas=[
     ('resources', 'resources'),
-    ('presets', 'presets'),
+	('presets', 'presets'),
     ],
     hiddenimports=hiddenimports,
     hookspath=[],
@@ -47,6 +47,6 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='DTF Optimizer Pro.app',
-    icon='resources/icon.icns',
+    icon='resources/logo.icns',
     bundle_identifier='com.luponji.dtfoptimizerpro',
 )
